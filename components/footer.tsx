@@ -19,7 +19,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Legal</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-300 hover:text-[#2563EB] transition-colors">
+                <a href="/terms-of-service" className="text-gray-300 hover:text-[#2563EB] transition-colors">
                   Terms of Service
                 </a>
               </li>
