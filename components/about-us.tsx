@@ -1,4 +1,10 @@
+"use client"
+
+import { useLanguage } from "@/contexts/language-context"
+
 export default function AboutUs() {
+  const { t } = useLanguage()
+
   return (
     <section id="about" className="py-20 md:py-28 bg-white">
       <div className="container mx-auto px-4">
@@ -14,16 +20,9 @@ export default function AboutUs() {
           </div>
 
           <div className="order-1 md:order-2">
-            <p className="text-sm font-semibold text-[#2563EB] uppercase tracking-wider mb-3">Our Expertise</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0A192F] mb-6 text-balance">
-              Strategic Know-How in Physical & Digital Markets
-            </h2>
-            <p className="text-lg text-[#334155] leading-relaxed">
-              Anor Commerce is built on a foundation of excellence. Our dedicated teams manage the logistics of physical
-              brands like Petloo and Katuchef, alongside the scale of digital product verticals. With expertise in
-              Marketing, Customer Relations, and Product Development, we drive operational success across both
-              e-commerce and info-product ecosystems.
-            </p>
+            <p className="text-sm font-semibold text-[#2563EB] uppercase tracking-wider mb-3">{t("about.badge")}</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0A192F] mb-6 text-balance">{t("about.title")}</h2>
+            <p className="text-lg text-[#334155] leading-relaxed">{t("about.description")}</p>
           </div>
         </div>
       </div>

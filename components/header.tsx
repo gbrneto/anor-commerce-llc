@@ -1,11 +1,12 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
-import { Building2 } from "lucide-react"
 import { useState, useEffect } from "react"
+import { useLanguage } from "@/contexts/language-context"
+import LanguageSelector from "./language-selector"
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
+  const { t } = useLanguage()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,25 +25,32 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <Building2 className="h-7 w-7 text-[#2563EB]" />
+            <img
+              src="https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Anor%20Commerce/image%20956.png"
+              alt="Anor Commerce Logo"
+              className="h-7 w-auto"
+            />
             <span className="text-xl font-bold text-[#0A192F]">Anor Commerce</span>
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
+            <a href="/" className="text-sm font-medium text-[#334155] hover:text-[#2563EB] transition-colors">
+              {t("header.home")}
+            </a>
             <a href="#brands" className="text-sm font-medium text-[#334155] hover:text-[#2563EB] transition-colors">
-              Our Brands
+              {t("header.ourBrands")}
             </a>
             <a href="#about" className="text-sm font-medium text-[#334155] hover:text-[#2563EB] transition-colors">
-              About Us
+              {t("header.aboutUs")}
             </a>
             <a href="#compliance" className="text-sm font-medium text-[#334155] hover:text-[#2563EB] transition-colors">
-              Compliance
+              {t("header.compliance")}
             </a>
           </nav>
 
-          <Button asChild className="bg-[#2563EB] hover:bg-[#1d4ed8] text-white">
-            <a href="mailto:info@anorcommerce.com">Contact Sales</a>
-          </Button>
+          <div className="flex items-center gap-2">
+            <LanguageSelector />
+          </div>
         </div>
       </div>
     </header>
