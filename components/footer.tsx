@@ -24,12 +24,12 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-[#2563EB] transition-colors">
+                <a href="/privacy-policy" className="text-gray-300 hover:text-[#2563EB] transition-colors">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-[#2563EB] transition-colors">
+                <a href="/refund-policy" className="text-gray-300 hover:text-[#2563EB] transition-colors">
                   Refund Policy
                 </a>
               </li>
