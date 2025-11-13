@@ -9,15 +9,15 @@ export default function Hero() {
       <div className="container relative mx-auto px-4">
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-[#0A192F] mb-6 text-balance leading-tight">
-            Connecting Global Innovation to Latin American Markets
+            Bridging Global Commerce & Digital Innovation to LATAM
           </h1>
           <p className="text-lg md:text-xl text-[#334155] mb-8 leading-relaxed">
-            Anor Commerce is a US-based e-commerce hub, powering high-performance digital brands for Brazil and the
-            LATAM region.
+            Anor Commerce is a US-based strategic sales hub for premium e-commerce brands and high-ticket info products,
+            serving Brazil and the LATAM region.
           </p>
           <Button size="lg" className="bg-[#2563EB] hover:bg-[#1d4ed8] text-white text-base px-8 py-6" asChild>
-            <a href="#brands" className="flex items-center gap-2">
-              Explore Our Portfolio
+            <a href="#business-model" className="flex items-center gap-2">
+              Explore Our Model
               <ArrowRight className="h-5 w-5" />
             </a>
           </Button>
