@@ -26,7 +26,7 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <img
-              src="https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Anor%20Commerce/image%20956.png"
+              src="/images/design-mode/image%20956.png"
               alt="Anor Commerce Logo"
               className="h-7 w-auto"
             />

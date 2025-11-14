@@ -16,10 +16,10 @@ export const pt = {
   "products.title": "Produtos em Destaque",
   "products.subtitle": "Produtos exclusivos de marcas americanas confiáveis, entregues diretamente para você.",
   "products.petloo.title": "Caneca Personalizada Looneca Prisma",
-  "products.petloo.price": "R$ 169,90",
+  "products.petloo.price": "R$ 169,90 / $31.90",
   "products.petloo.description": "Caneca personalizada exclusiva com design geométrico para amantes de pets.",
-  "products.katuchef.title": "Kit Tábuas de Corte",
-  "products.katuchef.price": "R$ 89,90",
+  "products.katuchef.title": "Kit Tábuas de Corte Katuchef",
+  "products.katuchef.price": "R$ 89,90 / $16.90",
   "products.katuchef.description": "Kit de tábuas de corte premium não tóxicas para cozinhas profissionais.",
   "products.buyNow": "Comprar Agora",
   "about.badge": "Nossa Expertise",
@@ -51,7 +51,7 @@ export const pt = {
   "footer.address": "Endereço Registrado: 1209 MOUNTAIN ROAD PL NE STE R, ALBUQUERQUE NM 87110",
 
   "terms.title": "Termos de Serviço",
-  "terms.lastUpdated": "Última atualização: 15 de janeiro de 2025",
+  "terms.lastUpdated": "15 de janeiro de 2025",
   "terms.section1.title": "1. Introdução (Aceitação dos Termos)",
   "terms.section1.p1":
     'Bem-vindo à Anor Commerce LLC ("Empresa", "nós", "nosso"). Estes Termos de Serviço ("Termos") regem seu acesso e uso de nossos sites, plataformas de e-commerce, produtos físicos e produtos digitais/infoprodutos (coletivamente, os "Serviços").',

@@ -2,7 +2,7 @@
 
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { ExternalLink } from 'lucide-react'
+import { ExternalLink, Instagram } from 'lucide-react'
 import { useLanguage } from "@/contexts/language-context"
 
 export default function FeaturedProducts() {
@@ -15,7 +15,9 @@ export default function FeaturedProducts() {
       descriptionKey: "products.petloo.description",
       buttonKey: "products.buyNow",
       link: "https://petloo.com.br/",
-      image: "/personalized-geometric-mug-for-pet-lovers.jpg",
+      image: "https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Anor%20Commerce/ct3_6a1c34cd-80fc-47e9-a933-65143d71d562%20%283%29.webp",
+      instagram: "https://www.instagram.com/petloobrasil/",
+      instagramHandle: "@petloobrasil",
     },
     {
       titleKey: "products.katuchef.title",
@@ -23,7 +25,9 @@ export default function FeaturedProducts() {
       descriptionKey: "products.katuchef.description",
       buttonKey: "products.buyNow",
       link: "https://oferta.katucheftitanio.com/",
-      image: "/premium-cutting-board-set-for-professional-kitchen.jpg",
+      image: "https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Anor%20Commerce/20250826_2034_Tabuas%20de%20Corte%20Elegantes_remix_01k3mbmn9meysrfewqn994zs3b%20%281%29.png",
+      instagram: "https://www.instagram.com/katuchef/",
+      instagramHandle: "@katuchef",
     },
   ]
 
@@ -54,7 +58,7 @@ export default function FeaturedProducts() {
                   {t(product.descriptionKey)}
                 </CardDescription>
               </CardContent>
-              <CardFooter>
+              <CardFooter className="flex flex-col gap-3">
                 <Button
                   size="lg"
                   className="w-full bg-[#2563EB] hover:bg-[#1d4ed8] text-white"
@@ -65,6 +69,15 @@ export default function FeaturedProducts() {
                     <ExternalLink className="h-4 w-4" />
                   </a>
                 </Button>
+                <a
+                  href={product.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 text-[#334155] hover:text-[#2563EB] transition-colors text-sm"
+                >
+                  <Instagram className="h-4 w-4" />
+                  <span>{product.instagramHandle}</span>
+                </a>
               </CardFooter>
             </Card>
           ))}
