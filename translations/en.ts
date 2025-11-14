@@ -35,6 +35,7 @@ export const en = {
   "footer.termsOfService": "Terms of Service",
   "footer.privacyPolicy": "Privacy Policy",
   "footer.refundPolicy": "Refund Policy",
+  "footer.shippingPolicy": "Shipping Policy",
   "footer.contact": "Contact",
   "footer.copyright": "© 2025 Anor Commerce LLC. All rights reserved.",
   "footer.ein": "EIN: 30-1462603",
@@ -367,4 +368,19 @@ export const en = {
     "For international customers, especially those in Brazil and other LATAM countries, please be aware that currency conversion rates and international transaction fees may affect the final refund amount. We process refunds in the original transaction currency whenever possible.",
   "refund.footer":
     "This Refund Policy is part of our Terms of Service. By making a purchase from Anor Commerce LLC or any of our brands, you acknowledge that you have read, understood, and agree to this Refund Policy.",
+
+  "shipping.title": "Shipping Policy",
+  "shipping.lastUpdated": "Last Updated: November 2025",
+  "shipping.intro": "Anor Commerce LLC is committed to delivering your physical products (Petloo, Katuchef, Versia Garden) efficiently and safely to Brazil and LATAM regions, as well as providing instant access to digital products.",
+  "shipping.digital.title": "1. Digital Products & Info-Products",
+  "shipping.digital.text": "Digital products are delivered instantly via email upon payment confirmation. No shipping fees apply.",
+  "shipping.physical.title": "2. Physical Products (Petloo, Katuchef, Versia Garden)",
+  "shipping.processing": "Processing Time",
+  "shipping.processing.text": "Orders are processed within 1-3 business days after payment confirmation. Orders are not shipped or delivered on weekends or holidays.",
+  "shipping.rates": "Shipping Rates & Estimates",
+  "shipping.rates.text": "Shipping charges for your order will be calculated and displayed at checkout based on the weight of the items and destination.",
+  "shipping.international": "International Shipping (Brazil & LATAM)",
+  "shipping.international.text": "We specialize in cross-border logistics. Your order may be subject to import duties and taxes (including VAT), which are incurred once a shipment reaches your destination country. Anor Commerce LLC acts as the merchant of record.",
+  "shipping.tracking": "Tracking",
+  "shipping.tracking.text": "When your order has shipped, you will receive an email notification from us which will include a tracking number you can use to check its status.",
 }

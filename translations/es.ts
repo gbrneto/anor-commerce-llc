@@ -37,6 +37,7 @@ export const es = {
   "footer.termsOfService": "Términos de Servicio",
   "footer.privacyPolicy": "Política de Privacidad",
   "footer.refundPolicy": "Política de Reembolso",
+  "footer.shippingPolicy": "Política de Envío",
   "footer.contact": "Contacto",
   "footer.copyright": "© 2025 Anor Commerce LLC. Todos los derechos reservados.",
   "footer.ein": "EIN: 30-1462603",
@@ -313,6 +314,10 @@ export const es = {
   "refund.section1.subtitle1": "A. Ventana de Reembolso",
   "refund.section1.subtitle1.p1":
     "Tiene 30 días naturales a partir de la fecha de recepción del producto físico para solicitar un reembolso.",
+  "refund.section1.subtitle1.li1": "El producto se envió en el plazo especificado",
+  "refund.section1.subtitle1.li2": "El producto llegó en perfectas condiciones",
+  "refund.section1.subtitle1.li3": "El producto coincide con la descripción del sitio web",
+  "refund.section1.subtitle1.li4": "Está satisfecho con la calidad del producto",
 
   "refund.section1.subtitle2": "B. Condiciones para Reembolsos de Productos Físicos",
   "refund.section1.subtitle2.p1":
@@ -345,7 +350,6 @@ export const es = {
   "refund.section2.title": "2. Reembolsos para Productos Digitales e Infoproductos",
   "refund.section2.p1":
     "Debido a la naturaleza de los productos digitales e infoproductos, generalmente no ofrecemos reembolsos después de que se complete la compra y se otorgue el acceso. Sin embargo, existen excepciones:",
-
   "refund.section2.subtitle1": "A. Política General",
   "refund.section2.subtitle1.p1": "Todas las ventas de productos digitales e infoproductos son finales.",
   "refund.section2.subtitle1.p2":
@@ -421,4 +425,20 @@ export const es = {
 
   "refund.footer":
     "Si tiene alguna pregunta sobre esta Política de Reembolso, contáctenos en info@anorcommerce.com. Nos reservamos el derecho de actualizar o modificar esta política en cualquier momento.",
+
+  // Shipping Policy Spanish translations
+  "shipping.title": "Política de Envío",
+  "shipping.lastUpdated": "Última actualización: Noviembre 2025",
+  "shipping.intro": "Anor Commerce LLC está comprometida a entregar sus productos físicos (Petloo, Katuchef, Versia Garden) de manera eficiente y segura a Brasil y regiones de LATAM, así como proporcionar acceso instantáneo a productos digitales.",
+  "shipping.digital.title": "1. Productos Digitales e Infoproductos",
+  "shipping.digital.text": "Los productos digitales se entregan instantáneamente por correo electrónico tras la confirmación del pago. No se aplican tarifas de envío.",
+  "shipping.physical.title": "2. Productos Físicos (Petloo, Katuchef, Versia Garden)",
+  "shipping.processing": "Tiempo de Procesamiento",
+  "shipping.processing.text": "Los pedidos se procesan dentro de 1-3 días hábiles después de la confirmación del pago. Los pedidos no se envían ni entregan los fines de semana o días festivos.",
+  "shipping.rates": "Tarifas y Estimaciones de Envío",
+  "shipping.rates.text": "Las tarifas de envío de su pedido se calcularán y mostrarán al finalizar la compra según el peso de los artículos y el destino.",
+  "shipping.international": "Envío Internacional (Brasil y LATAM)",
+  "shipping.international.text": "Nos especializamos en logística transfronteriza. Su pedido puede estar sujeto a aranceles de importación e impuestos (incluido el IVA), que se incurren una vez que un envío llega a su país de destino. Anor Commerce LLC actúa como el comerciante de registro.",
+  "shipping.tracking": "Seguimiento",
+  "shipping.tracking.text": "Cuando su pedido haya sido enviado, recibirá una notificación por correo electrónico de nuestra parte que incluirá un número de seguimiento que puede usar para verificar su estado.",
 }
