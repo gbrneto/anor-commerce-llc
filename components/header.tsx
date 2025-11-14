@@ -37,13 +37,13 @@ export default function Header() {
             <a href="/" className="text-sm font-medium text-[#334155] hover:text-[#2563EB] transition-colors">
               {t("header.home")}
             </a>
-            <a href="#brands" className="text-sm font-medium text-[#334155] hover:text-[#2563EB] transition-colors">
+            <a href="/#products" className="text-sm font-medium text-[#334155] hover:text-[#2563EB] transition-colors">
               {t("header.ourBrands")}
             </a>
-            <a href="#about" className="text-sm font-medium text-[#334155] hover:text-[#2563EB] transition-colors">
+            <a href="/#about" className="text-sm font-medium text-[#334155] hover:text-[#2563EB] transition-colors">
               {t("header.aboutUs")}
             </a>
-            <a href="#compliance" className="text-sm font-medium text-[#334155] hover:text-[#2563EB] transition-colors">
+            <a href="/#compliance" className="text-sm font-medium text-[#334155] hover:text-[#2563EB] transition-colors">
               {t("header.compliance")}
             </a>
           </nav>

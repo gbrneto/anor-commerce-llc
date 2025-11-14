@@ -6,15 +6,13 @@ export const pt = {
   "header.contactSales": "Contato Vendas",
   "hero.title": "A Loja Oficial de Marcas Premium dos EUA na LATAM.",
   "hero.description":
-    "Acesso direto aos produtos Petloo e Katuchef. Envio seguro, preços transparentes e suporte local para clientes brasileiros.",
+    "Acesso direto aos produtos Petloo e Katuchef. Envio seguro, preços transparentes e suporte local para clientes no Brasil e na América Latina.",
   "hero.shopButton": "Compre Nossos Produtos",
   "brands.title": "Nosso Ecossistema de E-commerce",
   "brands.petloo.title": "Petloo",
   "brands.petloo.description": "Líder em produtos personalizados para pets.",
   "brands.katuchef.title": "Katuchef",
   "brands.katuchef.description": "Inovação para sua cozinha com produtos de alta qualidade e não tóxicos.",
-  "brands.versiaGarden.title": "Versia Garden",
-  "brands.versiaGarden.description": "Soluções inteligentes para germinação de sementes.",
   "products.title": "Produtos em Destaque",
   "products.subtitle": "Produtos exclusivos de marcas americanas confiáveis, entregues diretamente para você.",
   "products.petloo.title": "Caneca Personalizada Looneca Prisma",
@@ -84,7 +82,7 @@ export const pt = {
 
   "terms.section4.title": "4. Compras de Produtos Físicos e Produtos Digitais (Infoprodutos)",
   "terms.section4.p1":
-    "A Anor Commerce LLC opera como um hub estratégico de vendas para marcas de e-commerce premium (como Petloo, Katuchef, Versia Garden) e infoprodutos digitais de alto valor servindo a região LATAM.",
+    "A Anor Commerce LLC opera como um hub estratégico de vendas para marcas de e-commerce premium (como Petloo e Katuchef) e infoprodutos digitais de alto valor servindo a região LATAM.",
 
   "terms.section4.subtitle1": "A. Produtos Físicos",
   "terms.section4.subtitle1.p1":
@@ -313,11 +311,11 @@ export const pt = {
   "refund.lastUpdated": "Última atualização: 15 de janeiro de 2025",
   "refund.notice.title": "AVISO IMPORTANTE:",
   "refund.notice.content":
-    "A Anor Commerce LLC opera duas categorias distintas de produtos com políticas de reembolso separadas: Produtos Físicos (marcas de e-commerce como Petloo, Katuchef, Versia Garden) e Produtos Digitais/Infoprodutos. Leia atentamente cada seção.",
+    "A Anor Commerce LLC opera duas categorias distintas de produtos com políticas de reembolso separadas: Produtos Físicos (marcas de e-commerce como Petloo e Katuchef) e Produtos Digitais/Infoprodutos. Leia atentamente cada seção.",
 
   "refund.section1.title": "1. Reembolsos para Produtos Físicos",
   "refund.section1.p1":
-    "Para produtos físicos vendidos através de nossas marcas de e-commerce (Petloo, Katuchef, Versia Garden), oferecemos a seguinte política de reembolso:",
+    "Para produtos físicos vendidos através de nossas marcas de e-commerce (Petloo e Katuchef), oferecemos a seguinte política de reembolso:",
 
   "refund.section1.subtitle1": "A. Janela de Reembolso",
   "refund.section1.subtitle1.p1":
@@ -435,10 +433,10 @@ export const pt = {
 
   "shipping.title": "Política de Envio",
   "shipping.lastUpdated": "Última atualização: Novembro 2025",
-  "shipping.intro": "A Anor Commerce LLC está comprometida em entregar seus produtos físicos (Petloo, Katuchef, Versia Garden) de forma eficiente e segura para o Brasil e regiões da LATAM, bem como fornecer acesso instantâneo a produtos digitais.",
+  "shipping.intro": "A Anor Commerce LLC está comprometida em entregar seus produtos físicos (Petloo, Katuchef) de forma eficiente e segura para o Brasil e regiões da LATAM, bem como fornecer acesso instantâneo a produtos digitais.",
   "shipping.digital.title": "1. Produtos Digitais e Infoprodutos",
   "shipping.digital.text": "Produtos digitais são entregues instantaneamente por e-mail após a confirmação do pagamento. Não há taxas de envio.",
-  "shipping.physical.title": "2. Produtos Físicos (Petloo, Katuchef, Versia Garden)",
+  "shipping.physical.title": "2. Produtos Físicos (Petloo, Katuchef)",
   "shipping.processing": "Tempo de Processamento",
   "shipping.processing.text": "Os pedidos são processados dentro de 1-3 dias úteis após a confirmação do pagamento. Os pedidos não são enviados ou entregues nos fins de semana ou feriados.",
   "shipping.rates": "Taxas e Estimativas de Envio",

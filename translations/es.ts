@@ -6,7 +6,7 @@ export const es = {
   "header.contactSales": "Contacto Ventas",
   "hero.title": "La Tienda Oficial de Marcas Premium de EE.UU. en LATAM.",
   "hero.description":
-    "Acceso directo a productos Petloo y Katuchef. Envío seguro, precios transparentes y soporte local para clientes brasileños.",
+    "Acceso directo a productos Petloo y Katuchef. Envío seguro, precios transparentes y soporte local para clientes en Brasil y América Latina.",
   "hero.shopButton": "Comprar Nuestros Productos",
   "products.title": "Productos Destacados",
   "products.subtitle": "Productos exclusivos de marcas estadounidenses confiables, entregados directamente a usted.",
@@ -22,8 +22,6 @@ export const es = {
   "brands.petloo.description": "Líder en productos personalizados para mascotas.",
   "brands.katuchef.title": "Katuchef",
   "brands.katuchef.description": "Innovación para tu cocina con productos de alta calidad y no tóxicos.",
-  "brands.versiaGarden.title": "Versia Garden",
-  "brands.versiaGarden.description": "Soluciones inteligentes para germinación de semillas.",
   "about.badge": "Nuestra Experiencia",
   "about.title": "Know-How Estratégico en Mercados Físicos y Digitales",
   "about.description":
@@ -84,7 +82,7 @@ export const es = {
 
   "terms.section4.title": "4. Compras de Bienes Físicos y Productos Digitales (Infoproductos)",
   "terms.section4.p1":
-    "Anor Commerce LLC opera como un hub estratégico de ventas para marcas premium de comercio electrónico (como Petloo, Katuchef, Versia Garden) e infoproductos digitales de alto valor que sirven a la región LATAM.",
+    "Anor Commerce LLC opera como un hub estratégico de ventas para marcas premium de comercio electrónico (como Petloo y Katuchef) e infoproductos digitales de alto valor que sirven a la región LATAM.",
 
   "terms.section4.subtitle1": "A. Productos Físicos",
   "terms.section4.subtitle1.p1":
@@ -314,11 +312,11 @@ export const es = {
   "refund.lastUpdated": "Última actualización: 15 de enero de 2025",
   "refund.notice.title": "AVISO IMPORTANTE:",
   "refund.notice.content":
-    "Anor Commerce LLC opera dos categorías distintas de productos con políticas de reembolso separadas: Productos Físicos (marcas de comercio electrónico como Petloo, Katuchef, Versia Garden) y Productos Digitales/Infoproductos. Lea atentamente cada sección.",
+    "Anor Commerce LLC opera dos categorías distintas de productos con políticas de reembolso separadas: Productos Físicos (marcas de comercio electrónico como Petloo y Katuchef) y Productos Digitales/Infoproductos. Lea atentamente cada sección.",
 
   "refund.section1.title": "1. Reembolsos para Productos Físicos",
   "refund.section1.p1":
-    "Para productos físicos vendidos a través de nuestras marcas de comercio electrónico (Petloo, Katuchef, Versia Garden), ofrecemos la siguiente política de reembolso:",
+    "Para productos físicos vendidos a través de nuestras marcas de comercio electrónico (Petloo y Katuchef), ofrecemos la siguiente política de reembolso:",
 
   "refund.section1.subtitle1": "A. Ventana de Reembolso",
   "refund.section1.subtitle1.p1":
@@ -438,10 +436,10 @@ export const es = {
   // Shipping Policy Spanish translations
   "shipping.title": "Política de Envío",
   "shipping.lastUpdated": "Última actualización: Noviembre 2025",
-  "shipping.intro": "Anor Commerce LLC está comprometida a entregar sus productos físicos (Petloo, Katuchef, Versia Garden) de manera eficiente y segura a Brasil y regiones de LATAM, así como proporcionar acceso instantáneo a productos digitales.",
+  "shipping.intro": "Anor Commerce LLC está comprometida a entregar sus productos físicos (Petloo, Katuchef) de manera eficiente y segura a Brasil y regiones de LATAM, así como proporcionar acceso instantáneo a productos digitales.",
   "shipping.digital.title": "1. Productos Digitales e Infoproductos",
   "shipping.digital.text": "Los productos digitales se entregan instantáneamente por correo electrónico tras la confirmación del pago. No se aplican tarifas de envío.",
-  "shipping.physical.title": "2. Productos Físicos (Petloo, Katuchef, Versia Garden)",
+  "shipping.physical.title": "2. Productos Físicos (Petloo, Katuchef)",
   "shipping.processing": "Tiempo de Procesamiento",
   "shipping.processing.text": "Los pedidos se procesan dentro de 1-3 días hábiles después de la confirmación del pago. Los pedidos no se envían ni entregan los fines de semana o días festivos.",
   "shipping.rates": "Tarifas y Estimaciones de Envío",
