@@ -1,11 +1,18 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
+import { ShoppingCart } from 'lucide-react'
 import { useLanguage } from "@/contexts/language-context"
 
 export default function Hero() {
   const { t } = useLanguage()
+
+  const scrollToProducts = () => {
+    const element = document.getElementById("products")
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" })
+    }
+  }
 
   return (
     <section className="relative bg-white py-24 md:py-32 overflow-hidden">
@@ -17,11 +24,13 @@ export default function Hero() {
             {t("hero.title")}
           </h1>
           <p className="text-lg md:text-xl text-[#334155] mb-8 leading-relaxed">{t("hero.description")}</p>
-          <Button size="lg" className="bg-[#2563EB] hover:bg-[#1d4ed8] text-white text-base px-8 py-6" asChild>
-            <a href="#business-model" className="flex items-center gap-2">
-              {t("hero.exploreButton")}
-              <ArrowRight className="h-5 w-5" />
-            </a>
+          <Button
+            size="lg"
+            className="bg-[#2563EB] hover:bg-[#1d4ed8] text-white text-base px-8 py-6"
+            onClick={scrollToProducts}
+          >
+            <ShoppingCart className="h-5 w-5 mr-2" />
+            {t("hero.shopButton")}
           </Button>
         </div>
       </div>

@@ -1,8 +1,7 @@
 import Header from "@/components/header"
 import Hero from "@/components/hero"
-import BrandsPortfolio from "@/components/brands-portfolio"
+import FeaturedProducts from "@/components/featured-products"
 import AboutUs from "@/components/about-us"
-import BusinessModel from "@/components/business-model"
 import Footer from "@/components/footer"
 
 export default function HomePage() {
@@ -11,9 +10,8 @@ export default function HomePage() {
       <Header />
       <main>
         <Hero />
-        <BrandsPortfolio />
+        <FeaturedProducts />
         <AboutUs />
-        <BusinessModel />
       </main>
       <Footer />
     </div>
